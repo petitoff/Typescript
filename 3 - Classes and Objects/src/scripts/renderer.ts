@@ -8,7 +8,7 @@ export class Renderer {
   //     this.viewTemplate.innerHTML = html;
   // }
 
-  private constructor() {}
+  private constructor() {} // blocking to use ctor
 
   // static way
   static viewTemplate: HTMLDivElement;
